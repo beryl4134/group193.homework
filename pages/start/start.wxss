@@ -1,0 +1,29 @@
+.button{
+width: 80%;
+}
+.intro {
+padding: 50px 10%;
+color: #424242;
+line-height: 1.5;
+display: flex;
+align-items: center;
+justify-content: center; 
+}
+page::before{
+content: '';
+position: fixed;
+top: 0;
+z-index: -1;
+width: 100vw;
+height: 100vh;
+}
+
+page::after{
+content: '';
+position: fixed;
+top: 0;
+z-index: -1;
+width: 100vw;
+height: 100vh;
+background:rgba(128, 188, 228, 0.89);
+}
